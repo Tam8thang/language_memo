@@ -2,6 +2,8 @@ import FreeSimpleGUI as sg
 import sqlite3
 from contextlib import contextmanager
 
+#Test Comment
+
 try:
     linux_font = 'DejaVu Sans'
     # Test if font exists by creating a temporary Text element
