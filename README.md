@@ -12,8 +12,8 @@ A simple desktop application for saving and searching language translation pairs
 ## Installation
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/language-memo-app.git
-cd language-memo-app
+git clone https://github.com/Tam8thang/language-memo.git
+cd language-memo
 
 # Install dependencies
 pip install FreeSimpleGUI
@@ -21,7 +21,7 @@ pip install FreeSimpleGUI
 
 ## Usage
 ```bash
-python3 language_app.py
+python3 language_memo.py
 ```
 
 ### Basic Controls
@@ -45,13 +45,13 @@ python3 language_app.py
 
 ## Building Executable
 ```bash
-pyinstaller --onefile --noconsole --add-data="language_pairs.db:." language_app.py
+pyinstaller --onefile --noconsole --add-data="language_pairs.db:." language_memo.py
 ```
 
 ## Troubleshooting
 - **Database issues**: Delete `language_pairs.db` to reset
 - **Font problems**: Edit the `LINUX_FONT` variable in code
-- **Window freezes**: Run with console to see errors (`python3 language_app.py`)
+- **Window freezes**: Run with console to see errors (`python3 language_memo.py`)
 
 ## License
 MIT License
